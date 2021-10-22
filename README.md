@@ -1,6 +1,6 @@
-# Evaluate a News Article with Natural Language project
+ Evaluate a News Article with Natural Language project
 
-## Table of Contents
+# Table of Contents
 
 * [Overview](#overview)
 * [Project-Rubric](#project-rubric)
@@ -24,17 +24,7 @@ Wikipedia offers the following definition:
 
 The students will use an API called MeaningCloud to determine various attributes of an article or blog post.
 
-
-## Project-Rubric
-
-The project is created in accordance to the following specifications:
-
-* [Nanodegree Project Rubric Guide](https://review.udacity.com/#!/rubrics/2668/view)
-
-
-## Style-Guide
-
-See below for the Udacity Style Guide used thoroughout the Front End Nanodegree.
-
-* [Nanodegree Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/)
-
+Technologies
+HTML
+CSS (Sass)
+JavaScript
