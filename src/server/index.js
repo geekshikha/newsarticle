@@ -1,7 +1,7 @@
 var path = require('path');
 const express = require('express');
 const mockAPIResponse = require('./mockAPI.js');
-const bodyParser = require('body-parser');
+//const bodyParser = require('body-parser');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const fetch = require('node-fetch');
@@ -12,7 +12,7 @@ const api_key = process.env.API_KEY;
 const app = express();
 app.use(cors());
 app.use(express.json());
-app.use(express.urlencoded());
+//app.use(express.urlencoded());
 
 app.use(express.static('dist'));
 
@@ -23,6 +23,7 @@ const server = app.listen(port, () => {
 
 app.get('/', function (req, res) {
     res.sendFile(path.resolve('dist/index.html'))
+    //res.sendFile(path.resolve('src/client/views/index.html'))
 });
 
 app.get('/test', function (req, res) {
